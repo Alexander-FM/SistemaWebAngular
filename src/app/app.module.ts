@@ -9,6 +9,7 @@ import { FooterComponent } from './vistas/plus/footer/footer.component';
 import { CategoriasComponent } from './vistas/categorias/categorias.component';
 import { MarcasComponent } from './vistas/marcas/marcas.component';
 import { ProductosComponent } from './vistas/productos/productos.component';
+import { InicioComponent } from './vistas/plus/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProductosComponent } from './vistas/productos/productos.component';
     CategoriasComponent,
     MarcasComponent,
     ProductosComponent,
+    InicioComponent,
   ],
   imports: [
     BrowserModule,
